@@ -2,6 +2,10 @@
 
 Generate, repair, and remove a **DeepSeek Harness** desktop shortcut from inside the DSH Web GUI — one click, with the DSH whale icon.
 
+![Settings panel](docs/settings.png)
+
+![Desktop shortcut](docs/shortcut.png)
+
 > **Windows only.** The plugin relies on `.lnk` shortcuts, `WScript.Shell` COM, `powershell.exe`, and the `%APPDATA%\npm` shim; none of these exist on macOS or Linux. On other platforms it degrades safely — no routes are registered and one explanatory line is logged — so dsh keeps starting normally.
 
 ---
