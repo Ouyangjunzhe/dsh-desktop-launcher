@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地运行时产物（插件在用户目录下生成的，不应入库）
+dsh-launch.ps1
+dsh-whale.ico
+*.lnk

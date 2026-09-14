@@ -1,0 +1,55 @@
+{
+  "name": "dsh-desktop-launcher",
+  "version": "0.1.0",
+  "description": "Generate, repair, and remove a DeepSeek Harness desktop shortcut (with the DSH whale icon) from inside the DSH Web GUI.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop",
+    "shortcut",
+    "launcher",
+    "windows"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\""
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-desktop-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-desktop-launcher/issues"
+  },
+  "homepage": "https://github.com/OWNER/dsh-desktop-launcher#readme"
+}
