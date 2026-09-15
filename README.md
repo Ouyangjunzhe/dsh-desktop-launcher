@@ -3,11 +3,11 @@
 A Windows desktop launcher plugin for DSH that creates a shortcut and startup launcher for quick one-click access.
 
 <p align="center">
-  <img src="docs/settings.png" alt="Settings panel" width="900" />
+  <img src="https://raw.githubusercontent.com/Ouyangjunzhe/dsh-desktop-launcher/main/docs/settings.png" alt="Settings panel" width="900" />
 </p>
 
 <p align="center">
-  <img src="docs/shortcut.png" alt="Desktop shortcut" width="900" />
+  <img src="https://raw.githubusercontent.com/Ouyangjunzhe/dsh-desktop-launcher/main/docs/shortcut.png" alt="Desktop shortcut" width="900" />
 </p>
 
 > **Windows only.** The plugin relies on `.lnk` shortcuts, `WScript.Shell` COM, `powershell.exe`, and the `%APPDATA%\npm` shim; none of these exist on macOS or Linux. On other platforms it degrades safely — no routes are registered and one explanatory line is logged — so dsh keeps starting normally.
