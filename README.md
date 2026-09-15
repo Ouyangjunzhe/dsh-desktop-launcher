@@ -1,10 +1,14 @@
 # dsh-desktop-launcher
 
-Generate, repair, and remove a **DeepSeek Harness** desktop shortcut from inside the DSH Web GUI — one click, with the DSH whale icon.
+A Windows desktop launcher plugin for DSH that creates a shortcut and startup launcher for quick one-click access.
 
-![Settings panel](docs/settings.png)
+<p align="center">
+  <img src="docs/settings.png" alt="Settings panel" width="900" />
+</p>
 
-![Desktop shortcut](docs/shortcut.png)
+<p align="center">
+  <img src="docs/shortcut.png" alt="Desktop shortcut" width="900" />
+</p>
 
 > **Windows only.** The plugin relies on `.lnk` shortcuts, `WScript.Shell` COM, `powershell.exe`, and the `%APPDATA%\npm` shim; none of these exist on macOS or Linux. On other platforms it degrades safely — no routes are registered and one explanatory line is logged — so dsh keeps starting normally.
 
